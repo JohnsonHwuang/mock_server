@@ -1,0 +1,15 @@
+{
+  "name": "mock_server",
+  "version": "0.0.1",
+  "engines": {
+    "node": "0.12.0"
+  },
+  "scripts": {
+    "postinstall": "grunt mock"
+  },
+  "dependencies": {
+        "ip":"1.0.2",
+        "load-grunt-tasks": "3.3.0",
+        "grunt-restful-mock": " 0.1.21"
+    }
+}
