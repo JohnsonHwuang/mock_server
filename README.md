@@ -8,6 +8,16 @@
 
 不存在版本问题，node 0.12.0 及以上版本都可行。
 
+node 安装完成后需要通过 npm 安装 grunt 和 grunt-cli
+
+
+
+```
+npm install grunt
+npm install grunt-cli
+```
+如果报错的话，需要提权追加 sudo
+
 ## 运行
 
 在项目文件夹下输入以下命令会自动安装 node_modules 并运行 mock_server
